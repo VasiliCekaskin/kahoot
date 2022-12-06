@@ -6,7 +6,6 @@ import localFont from "@next/font/local";
 // Font files can be colocated inside of `pages`
 const abuget = localFont({ src: "../public/abuget.ttf" });
 
-
 // @ts-ignore
 import cookieCutter from "cookie-cutter";
 import Router from "next/router";
@@ -141,13 +140,11 @@ export default function LevelSeven() {
           )}
 
           {showAnswer === "incorrect" && (
-                      {showAnswer === "incorrect" && (
             <div className="block text-center mt-12 text-green">
               <p className={abuget.className} style={{ fontSize: 50 }}>
                 Falsch :(
               </p>
             </div>
-          )}
           )}
 
           {showAnswer !== "" && (
