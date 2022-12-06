@@ -4,7 +4,7 @@ import { useState } from "react";
 import localFont from "@next/font/local";
 
 // Font files can be colocated inside of `pages`
-const abuget = localFont({ src: "../public/abuget.ttf" });
+const abuget = localFont({ src: "./Abuget.ttf" });
 
 // @ts-ignore
 import cookieCutter from "cookie-cutter";
