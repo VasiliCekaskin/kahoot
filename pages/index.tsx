@@ -28,8 +28,7 @@ export default function Index() {
         <div>
           <Image src={"/Logo.jpeg"} alt={"Logo"} width={1000} height={700} />
           <p>Präsentiert von</p>
-          <p>Christian, Lisa und</p>
-          <p>vielleicht Carlos</p>
+          <p>Christian und Lisa</p>
 
           <br />
           <br />
